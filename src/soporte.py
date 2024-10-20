@@ -72,6 +72,6 @@ def sacar_info(url, que_buscar):
         for actividad in lista_actividades:
             activ.append(actividad.getText(strip=True))
 
-        print(activ)
+        return(activ)
     else:
         print("Error al acceder a la página")
